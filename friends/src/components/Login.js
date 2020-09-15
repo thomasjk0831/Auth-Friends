@@ -35,7 +35,7 @@ function Login(props){
     return (
         <div>
             <form onSubmit={submitHandler}>
-                <h2>Log-in</h2>
+                <h2>Log-in(creds in readme)</h2>
                 <label> <div>username</div>
                     <input 
                       name= 'username'

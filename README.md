@@ -1,5 +1,5 @@
 # Auth Friends
-
+username: 'Lambda School' password: 'i<3Lambd4'
 Topics:
 
 * React Router
