@@ -35,7 +35,8 @@ function Login(props){
     return (
         <div>
             <form onSubmit={submitHandler}>
-                <label> username: 
+                <h2>Log-in</h2>
+                <label> <div>username</div>
                     <input 
                       name= 'username'
                       type = 'text'
@@ -43,7 +44,7 @@ function Login(props){
                       onChange = {changeHandler}
                       />
                 </label>
-                <label> password: 
+                <label> <div>password</div>
                     <input 
                       name= 'password'
                       type = 'text'

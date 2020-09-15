@@ -46,7 +46,8 @@ function Form(props){
     return (
         <div>
             <form onSubmit={submitHandler}>
-                <label> name: 
+                <h2>Add Friend</h2>
+                <label> <div>name </div>
                     <input 
                       name= 'name'
                       type = 'text'
@@ -54,7 +55,7 @@ function Form(props){
                       onChange = {changeHandler}
                       />
                 </label>
-                <label> age: 
+                <label> <div>age</div> 
                     <input 
                       name= 'age'
                       type = 'text'
@@ -62,7 +63,7 @@ function Form(props){
                       onChange = {changeHandler}
                       />
                 </label>
-                <label> e-mail: 
+                <label> <div>e-mail</div> 
                     <input 
                       name= 'email'
                       type = 'text'

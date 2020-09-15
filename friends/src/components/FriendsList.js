@@ -15,14 +15,14 @@ function FriendsList(props){
         })
     }, [])
     return (
-         <div>
+         <div className="friends-list">
              <h2>
              Private friends list
              </h2>
              {
                  friends.map((friend)=>{
                      return (
-                     <div>
+                     <div className="friend">
                          <p>{friend.name}</p>
                          <p>{friend.age}</p>
                          <p>{friend.email}</p>

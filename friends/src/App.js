@@ -9,8 +9,9 @@ import Form from './components/Form'
 
 function App() {
   return (
-    <div>
+    <div className = "container">
       <nav>
+        <div>
         <Link to = {'/'}>
           Login 
         </Link>
@@ -20,6 +21,9 @@ function App() {
         <Link to = {'/form'}>
           Add Friends 
         </Link>
+
+        </div>
+        
       </nav>
       <Route exact path ="/">
         <Login />
